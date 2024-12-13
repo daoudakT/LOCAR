@@ -3,5 +3,5 @@ from .views import gestion_auto
 
 
 urlpatterns = [
-    path('', gestion_auto)
+    path('', gestion_auto, name='gest_auto_view')
 ]
